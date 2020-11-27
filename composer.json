@@ -1,0 +1,22 @@
+{
+    "name": "itisbean/php-youtube-music-api",
+    "description": "youtube music api for php",
+    "type": "library",
+    "keywords": ["youtube music api", "youtube music"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "doun",
+            "email": "iamdonydou@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "youtubeMusic\\": "src/"
+        }
+    }
+}
